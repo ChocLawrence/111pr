@@ -2,7 +2,7 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-md-6 mb-md-5">
+            <div class="col-lg-5 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">About Us</h2>
                     <p>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div> --}}
-            <div class="col-lg-3 col-md-6  mb-md-5">
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Services</h2>
                     <ul class="list-unstyled">
@@ -54,7 +54,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6  mb-md-5">
+            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Have any questions?</h2>
                     <div class="block-23 mb-3">
