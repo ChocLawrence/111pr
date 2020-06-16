@@ -117,7 +117,7 @@
     <script src="{{ asset('assets/js/google-map.js')}}"></script>
     <script src="{{ asset('assets/js/main.js')}}"></script>
 
-    {{-- @include('cookieConsent::index') --}}
+    @include('cookieConsent::index')
 
 </body>
 

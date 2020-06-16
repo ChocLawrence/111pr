@@ -79,13 +79,11 @@
 
 <body>
 
-
     @include('layouts.frontend.partial.header')
 
     @yield('content')
 
     @include('layouts.frontend.partial.footer')
-
 
 
 
@@ -117,8 +115,7 @@
     <script src="{{ asset('assets/js/google-map.js')}}"></script>
     <script src="{{ asset('assets/js/main.js')}}"></script>
 
-    {{-- @include('cookieConsent::index') --}}
-
+    @include('cookieConsent::index')
 </body>
 
 </html>

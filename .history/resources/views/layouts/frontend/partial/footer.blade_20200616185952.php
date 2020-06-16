@@ -48,9 +48,9 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Services</h2>
                     <ul class="list-unstyled">
-                        <li><a href="https://en.wikipedia.org/wiki/Public_relations" target="_blank" class="py-2 d-block">Public relations</a></li>
-                        <li><a href="https://en.wikipedia.org/wiki/Brand_management" target="_blank" class="py-2 d-block">Brand development</a></li>
-                        <li><a href="https://en.wikipedia.org/wiki/Event_management" target="_blank" class="py-2 d-block">Event cordination</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Public_relations" class="py-2 d-block">Public relations</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Brand_management" class="py-2 d-block">Brand development</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Event_management" class="py-2 d-block">Event cordination</a></li>
                     </ul>
                 </div>
             </div>
