@@ -395,7 +395,7 @@ and multifaceted in communications.')
                             <div class="item">
                                 <div class="testimony-wrap py-4 pb-5">
                                     <div class="user-img mb-4"
-                                        style="background-image: url({{ asset('assets/images/logo.png')}})">
+                                        style="background-image: url({{ asset('assets/logo.png')}})">
                                         <span class="quote d-flex align-items-center justify-content-center">
                                             <i class="icon-quote-left"></i>
                                         </span>
