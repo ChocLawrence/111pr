@@ -27,12 +27,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 img img-2 order-md-last"
-                style='background-image: url({{ asset('assets/images/bg_2-1.jpg')}});'>
+                style='background-image: url({{ asset('assets/images/bg_2-1.png')}});'>
             </div>
             <div class="col-md-6 py-5">
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-ruler"></span>
+                        {{-- <span class="flaticon-ruler"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Public Relations</h3>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-running"></span>
+                        {{-- <span class="flaticon-running"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Brand Development</h3>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-stationary-bike"></span>
+                        {{-- <span class="flaticon-stationary-bike"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3> Event Coordination</h3>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-meditation"></span>
+                        {{-- <span class="flaticon-meditation"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Event Management & Design</h3>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-stationary-bike"></span>
+                        {{-- <span class="flaticon-stationary-bike"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Philanthropic Management</h3>

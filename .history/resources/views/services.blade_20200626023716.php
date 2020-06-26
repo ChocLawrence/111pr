@@ -9,7 +9,7 @@
 
 
 <section class="hero-wrap js-fullheight">
-    <div class="overlay" style="background-image: url({{ asset('assets/images/bg_2.jpg')}});"
+    <div class="overlay" style="background-image: url({{ asset('assets/images/em.jpg')}});"
         data-stellar-background-ratio="0.5"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end">
@@ -32,7 +32,7 @@
             <div class="col-md-6 py-5">
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-gym"></span>
+                        {{-- <span class="flaticon-ruler"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Public Relations</h3>
@@ -42,17 +42,18 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-woman"></span>
+                        {{-- <span class="flaticon-running"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Brand Development</h3>
-                        <p>We manage the process of creating and strengthening your professional services brand. As we help firms
+                        <p>We manage the process of creating and strengthening your professional services brand. As we
+                            help firms
                             develop their brands, we divide the process into three phases</p>
                     </div>
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-workout"></span>
+                        {{-- <span class="flaticon-stationary-bike"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3> Event Coordination</h3>
@@ -62,7 +63,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-meditation"></span>
+                        {{-- <span class="flaticon-meditation"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Event Management & Design</h3>
@@ -73,7 +74,7 @@
                 </div>
                 <div class="program d-flex ftco-animate">
                     <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                        <span class="flaticon-stationary-bike"></span>
+                        {{-- <span class="flaticon-stationary-bike"></span> --}}
                     </div>
                     <div class="text ml-5 mr-lg-4 text-lg-right">
                         <h3>Philanthropic Management</h3>
@@ -95,7 +96,7 @@
                     <i class="db-right"></i>
                 </span>
                 <h2 class="mb-3">More Services</h2>
-                <p>At PR-Agency, we offer the services listed both above and below</p>
+                <p>At 1:11 PR Agency, we offer the services listed</p>
             </div>
         </div>
         <div class="row">
@@ -205,11 +206,6 @@
             </div>
         </div>
 
-        <div class="row justify-content-center mb-5">
-            <div class="form-group ml-md-4">
-                <a href="{{route('services')}}" class="btn btn-primary py-3 px-4"> More services</a>
-            </div>
-        </div>
     </div>
 </section>
 
