@@ -10,25 +10,25 @@ set('application', '111pr');
 set('repository', 'git@github.com:ChocLawrence/111pr.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', true); 
+set('git_tty', true);
 
 //set('use_relative_symlinks', false);
 
-// Shared files/dirs between deploys 
+// Shared files/dirs between deploys
 add('shared_files', []);
 add('shared_dirs', []);
 
-// Writable dirs by web server 
+// Writable dirs by web server
 add('writable_dirs', []);
 
 
 // Hosts
 
-host('aswiftconnect.com')
+host('111-pr.com')
     ->user('lawrence')
-    ->identityFile('~/.ssh/111pr_deployerkey')
-    ->set('deploy_path', '/var/www/html/111pr');    
-    
+    ->identityFile('~/.ssh/deployerkey')
+    ->set('deploy_path', '/var/www/html/111pr');
+
 // Tasks
 
 task('build', function () {
